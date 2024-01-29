@@ -72,10 +72,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ![Screenshot 2024-01-29 103650](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/e75d2851-1342-4f46-958b-38d64e988894)
 
 ![Screenshot 2024-01-29 103701](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/d96230f2-6e6a-4fcd-9953-7b813e1d4f26)
-![Screenshot 2024-01-29 103726](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/9cec72d4-f65f-489f-8991-3689fe0132fb)
+
 ![Screenshot 2024-01-29 103712](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/ee60975e-a491-4a17-8274-76ead8b5c8d9)
 ![Screenshot 2024-01-29 103701](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/25302d97-ad5e-47a3-b56f-31591ec8a36d)
-![Screenshot 2024-01-29 103934](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/d7bd5bdc-6f2f-4cd7-83c7-ba9ef41dcc14)
+
 ![Screenshot 2024-01-29 103910](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/ea340ee1-2010-468f-a36b-502819399b5f)
 ![Screenshot 2024-01-29 103843](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/6ad7501f-5d26-45d6-9a6b-ee0d281d7344)
 ![Screenshot 2024-01-29 103815](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/86a6964c-e1fc-45a1-8ae9-9d8b5ebd9c70)
