@@ -1,4 +1,9 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -6,8 +11,160 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  
+.custom-li {
+  list-style-type: none;
+  position: relative;
+  
 }
+
+.custom-li::before {
+  content: "▶";
+  position: absolute;
+  left: -1em;
+  
+}
+
+.carousel {
+  width: 100%;
+  height: 100%;
+
+}
+
+@media (min-width: 750px) and (max-width: 1250px) {
+  .md\:hidden {
+    display: none !important;
+  }
+  .lg\:hidden {
+    display: none !important;
+  }
+}
+.rcw-conversation-container {
+  background-color: #123456; /* Change the color to your preference */
+}
+
+.rcw-launcher {
+  background-color: #123456; /* Change the color to your preference */
+}
+
+.chatnow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  height: 100vh;
+}
+
+.chatnow__logo {
+  margin-bottom: 20px;
+}
+
+.chatnow__logo img {
+  /* width: 100px;
+  height: 100px; */
+}
+
+.chatnow__title {
+  margin-bottom: 20px;
+}
+
+.chatnow__form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.chatnow__form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.chatnow__form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.chatnow__form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  width: 100px;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+.chatnow__toggle {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  background-color: #bde4ff;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.chatnow__form {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  width: 500px; /* Or any width you want */
+  height: 400px; /* Or any height you want */
+  overflow: auto;
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.review-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+.review-card:hover {
+  transform: scale(1.01);
+}
+
+.review-author {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.review-text {
+  font-size: 16px;
+  padding: 10px ;
+}
+.review-text-time {
+  font-size: 12px;
+  padding: 10px ;
+}
+.google .blue {
+  color: #4285F4;
+}
+
+.google .red {
+  color: #DB4437;
+}
+
+.google .yellow {
+  color: #F4B400;
+}
+
+.google .green {
+  color: #0F9D58;
+  
+}   
