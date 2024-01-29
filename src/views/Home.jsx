@@ -63,7 +63,7 @@ const Home = () => {
             {loading ? <div className="flex justify-center items-center h-screen">
                 <ClipLoader color={"#f84444"} loading={loading} size={60} /></div> :
                 <>
-                    <img src={CleanPlace} className='w-full h-full ' />
+                    <img src={CleanPlace} className='w-full h-full ' alt='clean place image' />
                     <h1 className="text-5xl font-bold text-center my-8 flex justify-center">Welcome</h1>
                     <h2 className="text-center text-4xl text-[#057dcd] font-bold mb-8 ">Fabiana Fabulous Cleaning Service LLC</h2>
                     <p className="text-center text-xl mb-8 m-6 p-5 ">We keep your home or office sparkling, in and out. We have over 25 years of experience in the Eastside and Seattle, Wa areas with a loyal client base that stays with us for years! We can work around your schedule and work with you in the house or out of the house. We treat every job as our #1 priority. We never cut corners and always check all the nooks and crannies for those pesky crumbs and dust bunnies.</p>
@@ -83,40 +83,40 @@ const Home = () => {
                             <div className="w-1/2 ">
                                 <Carousel autoPlay infiniteLoop useKeyboardArrows dynamicHeight emulateTouch showStatus={false} showThumbs={false} transitionTime={1000} swipeable stopOnHover interval={5000} swipeScrollTolerance={5}>
                                     <div className="relative">
-                                        <img src={Bathroom} className=' w-full h-96 sm:w-64 sm:h-96' />
+                                        <img src={Bathroom} className=' w-full h-96 sm:w-64 sm:h-96' alt='bathroom image'/>
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Bathroom Cleaning</p>
                                     </div>
                                     <div className="relative">
-                                        <img src={Clean} className=' w-full h-96 sm:w-64 sm:h-96' />
+                                        <img src={Clean} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean image'/>
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Home Cleaning</p>
                                     </div>
                                     <div className="relative">
-                                        <img src={Gutter} className=' w-full h-96 sm:w-64 sm:h-96' />
+                                        <img src={Gutter} className=' w-full h-96 sm:w-64 sm:h-96' alt='gutter image'/>
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Gutter Cleaning</p>
                                     </div>
                                     <div className="relative">
-                                        <img src={Window} className=' w-full h-96 sm:w-64 sm:h-96' />
+                                        <img src={Window} className=' w-full h-96 sm:w-64 sm:h-96' alt='window image' />
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Window Clining</p>
                                     </div>
                                     <div className="relative">
-                                        <img src={Move_In} className=' w-full h-96 sm:w-64 sm:h-96' />
+                                        <img src={Move_In} className=' w-full h-96 sm:w-64 sm:h-96' alt='move in image'/>
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Move In Cleaning </p>
                                     </div>
                                     <div className="relative">
-                                        <img src={Move_Out} className=' w-full h-96 sm:w-64 sm:h-96' />
+                                        <img src={Move_Out} className=' w-full h-96 sm:w-64 sm:h-96' alt='move out image' />
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2" >Move Out Cleaning</p>
 
                                     </div>
                                     <div className="relative">
-                                        <img src={Office} className=' w-full h-96 sm:w-64 sm:h-96' />
+                                        <img src={Office} className=' w-full h-96 sm:w-64 sm:h-96' alt='office image'/>
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Office Clining</p>
                                     </div>
                                     <div className="relative">
-                                        <img src={Gutter_cleaning} className=' w-full h-96 sm:w-96 sm:h-96' />
+                                        <img src={Gutter_cleaning} className=' w-full h-96 sm:w-96 sm:h-96' alt='gutter image' />
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Gutter Cleaning</p>
                                     </div>
                                     <div className="relative">
-                                        <img src={Driveway} className=' w-full h-96 sm:w-64 sm:h-96' />
+                                        <img src={Driveway} className=' w-full h-96 sm:w-64 sm:h-96' alt='driveway image'/>
                                         <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Pressure Washing</p>
                                     </div>
                                 </Carousel>
@@ -139,7 +139,7 @@ const Home = () => {
                     </div>
                     <h1 className="text-4xl bg-gradient-colors text-[#ffffff] font-serif font-bold text-center  px-16 py-12 ">Refer us and get 15% off your next cleaning!</h1>
                     <div className="relative">
-                        <img src={CleanHome} className='md:w-full md:h-96 w-full h-96' />
+                        <img src={CleanHome} className='md:w-full md:h-96 w-full h-96' alt='clean home image' />
                         <div className="absolute inset-0 bg-black opacity-75 "></div>
                         <img src={Logo} className='absolute md:top-1/2 -top-2 md:left-1/3 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-68 h-64 m-5 ml-7 md:ml-0' />
                         <p className='md:text-center text-white  text-2xl md:absolute md:top-1/2 md:left-2/3 md:transform md:-translate-x-3/4 md:-translate-y-1/2 

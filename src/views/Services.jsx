@@ -35,7 +35,7 @@ const Services = () => {
       {loading ? <div className="flex justify-center items-center h-screen">
         <ClipLoader color={"#f84444"} loading={loading} size={60} /></div> :
         <>
-          <img src={CleanHome} className=' absolute w-full h-96' />
+          <img src={CleanHome} className=' absolute w-full h-96' alt='clean home image' />
           <div className=" w-full h-96 bg-black opacity-50"></div>
           <div className="md:absolute md:top-1/3 md:left-2/4 text-4xl font-bold my-10 text-[#ffffff] 
         absolute top-1/3 ">
@@ -49,7 +49,7 @@ const Services = () => {
             </div>
           </div>
           <div className='flex flex-col md:flex-row justify-center my-5'>
-            <img src={Clean} className='w-full h-96 p-5' />
+            <img src={Clean} className='w-full h-96 p-5' alt='clean house image'/>
             <div className='flex-grow w-full'>
               <p className='text-start text-3xl font-semibold p-2 font-serif '>Home Cleaning</p>
               <p className='text-xl p-3 tracking-normal leading-loose '>If you are looking for a reliable team of cleaners to tidy up your home,
@@ -85,7 +85,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <img src={Office} className='w-full h-96 p-5' />
+            <img src={Office} className='w-full h-96 p-5' alt='office image'/>
           </div>
           <div className='flex flex-col md:flex-row justify-center my-12'>
             <img src={Driveway} className='w-full h-96 p-5' />
@@ -124,7 +124,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <img src={Roof} className='w-full h-96 p-5' />
+            <img src={Roof} className='w-full h-96 p-5' alt='Roof image' />
           </div>
           <div className='flex flex-col md:flex-rowjustify-center my-12'>
             <img src={Gutter} className='w-full h-96 p-5' />
@@ -164,12 +164,12 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <img src={Window} className='w-full h-96 p-5' />
+            <img src={Window} className='w-full h-96 p-5' alt='window image'/>
           </div>
           <div className="relative">
             <img src={CleanPlace} className='md:w-full md:h-96 w-full h-96' />
             <div className="absolute inset-0 bg-black opacity-60 "></div>
-            <img src={Logo} className='absolute md:top-1/2 -top-2 md:left-1/3 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-68 h-64 m-5 ml-7 md:ml-0' />
+            <img src={Logo} className='absolute md:top-1/2 -top-2 md:left-1/3 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-68 h-64 m-5 ml-7 md:ml-0' alt='company logo' />
             <p className='md:text-center text-[#ffffff]  text-2xl md:absolute md:top-1/2 md:left-2/3 md:transform md:-translate-x-3/4 md:-translate-y-1/2 
                 absolute top-1/2 mt-12 md:mt-0 ml-5 rigth-1/2  '>WE MAKE A CLEAN SWEEP OF EVERYTHING</p>
             <button type="button" className="md:flex justify-center items-center 
