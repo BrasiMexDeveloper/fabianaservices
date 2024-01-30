@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
-import axios from 'axios';
-import ReCAPTCHA from 'react-google-recaptcha';
 
+import ReCAPTCHA from 'react-google-recaptcha';
+const axios = require('axios');
 const Request = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
     const [formData, setFormData] = useState({

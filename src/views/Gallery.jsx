@@ -51,7 +51,7 @@ const Contact = () => {
       {loading ? <div className="flex justify-center items-center h-screen">
         <ClipLoader color={"#f84444"} loading={loading} size={60} /></div> :
         <>
-      <img src={CleanPlace} className='absolute w-full h-96' />
+      <img src={CleanPlace} className='absolute w-full h-96' alt='clean place'/>
       <div className=" w-full h-96 bg-black opacity-50"></div>
       <div className="absolute top-1/3 left-2/4 text-4xl font-bold my-10 text-[#ffffff] ">
         <div className='flex justify-center'>
@@ -66,19 +66,19 @@ const Contact = () => {
             <p className="text-center text-4xl font-bold px-1 py-6 my-4">Our Work</p>
             <Carousel autoPlay infiniteLoop useKeyboardArrows showStatus={false} showThumbs={false} transitionTime={1000} swipeable stopOnHover interval={5000} swipeScrollTolerance={5}>
               <div className="relative">
-                <img src={SuperClean} className=' w-full h-96 sm:w-64 sm:h-96' alt='super clean image' />
+                <img src={SuperClean} className=' w-full h-96 sm:w-64 sm:h-96' alt='super clean ' />
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={SuperDurty} className=' w-full h-96 sm:w-64 sm:h-96' alt='super durty image' />
+                <img src={SuperDurty} className=' w-full h-96 sm:w-64 sm:h-96' alt='super durty ' />
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={SuperCleanR} className=' w-full h-96 sm:w-64 sm:h-96' alt='super clean image'/>
+                <img src={SuperCleanR} className=' w-full h-96 sm:w-64 sm:h-96' alt='super clean '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={DurtyKitchen} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty kitchen image'/>
+                <img src={DurtyKitchen} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty kitchen '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
@@ -86,91 +86,91 @@ const Contact = () => {
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC </p>
               </div>
               <div className="relative">
-                <img src={Oven} className=' w-full h-96 sm:w-64 sm:h-96' alt='oven image'/>
+                <img src={Oven} className=' w-full h-96 sm:w-64 sm:h-96' alt='oven '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC </p>
               </div>
               <div className="relative">
-                <img src={CleanStuff} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean stuff image'/>
+                <img src={CleanStuff} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean stuff '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC </p>
               </div>
               <div className="relative">
-                <img src={Grill} className=' w-full h-96 sm:w-64 sm:h-96' alt='grill image'/>
+                <img src={Grill} className=' w-full h-96 sm:w-64 sm:h-96' alt='grill '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC </p>
               </div>
               <div className="relative">
-                <img src={DurtyBath} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty bath image'/>
+                <img src={DurtyBath} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty bath '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2" >Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={CleanBath} className=' w-full h-96 sm:w-64 sm:h-96' alt='ckean bath image'/>
+                <img src={CleanBath} className=' w-full h-96 sm:w-64 sm:h-96' alt='ckean bath '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={DurtyToiler} className=' w-full h-96 sm:w-96 sm:h-96' alt='durty toiler image'/>
+                <img src={DurtyToiler} className=' w-full h-96 sm:w-96 sm:h-96' alt='durty toiler '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={CleanShawer} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean shawer image' />
+                <img src={CleanShawer} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean shawer ' />
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={DurtyShawer} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty shawer image'/>
+                <img src={DurtyShawer} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty shawer '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={CleanRoof} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean roof image'/>
+                <img src={CleanRoof} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean roof '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={DurtyRoof} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty roof image' />
+                <img src={DurtyRoof} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty roof ' />
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={CleanMetal} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean metal image'/>
+                <img src={CleanMetal} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean metal '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={DurtyMetal} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty metal image'/>
+                <img src={DurtyMetal} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty metal '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={DurtyMetalR} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty metal r image'/>
+                <img src={DurtyMetalR} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty metal r '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={CleanMetalR} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean metal r image'/>
+                <img src={CleanMetalR} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean metal r '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={Patio} className=' w-full h-96 sm:w-64 sm:h-96' alt='patio image'/>
+                <img src={Patio} className=' w-full h-96 sm:w-64 sm:h-96' alt='patio '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={DurtyWindow} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty window image'/>
+                <img src={DurtyWindow} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty window '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={WindowClean} className=' w-full h-96 sm:w-64 sm:h-96' alt='window clean image'/>
+                <img src={WindowClean} className=' w-full h-96 sm:w-64 sm:h-96' alt='window clean '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={DurtyFloor} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty floor image'/>
+                <img src={DurtyFloor} className=' w-full h-96 sm:w-64 sm:h-96' alt='durty floor '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={CleanFloor} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean floor image'/>
+                <img src={CleanFloor} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean floor '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={CleanR} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean image'/>
+                <img src={CleanR} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={ConcreteClean} className=' w-full h-96 sm:w-64 sm:h-96' alt='concrete clean image'/>
+                <img src={ConcreteClean} className=' w-full h-96 sm:w-64 sm:h-96' alt='concrete clean '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
               <div className="relative">
-                <img src={CleanWay} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean way image '/>
+                <img src={CleanWay} className=' w-full h-96 sm:w-64 sm:h-96' alt='clean way  '/>
                 <p className="absolute bottom-0 bg-opacity-30 bg-black text-white font-light p-2">Fabiana Fabulous Cleaning Services LLC</p>
               </div>
             </Carousel>
@@ -179,9 +179,9 @@ const Contact = () => {
       </div>
       <h1 className="text-4xl bg-gradient-colors text-[#ffffff] font-serif font-bold text-center  px-16 py-12 ">Refer us and get 15% off your next cleaning!</h1>
       <div className="relative">
-        <img src={CleanPlace} className='md:w-full md:h-96 w-full h-96' alt='clean place image' />
+        <img src={CleanPlace} className='md:w-full md:h-96 w-full h-96' alt='clean place ' />
         <div className="absolute inset-0 bg-black opacity-60 "></div>
-        <img src={Logo} className='absolute md:top-1/2 -top-2 md:left-1/3 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-68 h-64 m-5 ml-7 md:ml-0' alt='company logo '/>
+        <img src={Logo} className='absolute md:top-1/2 -top-2 md:left-1/3 md:transform md:-translate-x-1/2 md:-translate-y-1/2 w-68 h-64 m-5 ml-7 md:ml-0' alt='Fabiana Fabulous Cleanig Services LLC '/>
         <p className='md:text-center text-[#ffffff]  text-2xl md:absolute md:top-1/2 md:left-2/3 md:transform md:-translate-x-3/4 md:-translate-y-1/2 
                 absolute top-1/2 mt-12 md:mt-0 ml-5 rigth-1/2  '>WE MAKE A CLEAN SWEEP OF EVERYTHING</p>
         <button type="button" className="md:flex justify-center items-center 

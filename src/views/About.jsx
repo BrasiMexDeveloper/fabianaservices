@@ -20,7 +20,7 @@ const About = () => {
       {loading ? <div className="flex justify-center items-center h-screen">
         <ClipLoader color={"#f84444"} loading={loading} size={60} /></div> :
         <>
-          <img src={A_Clean} className='w-full h-96 absolute' alt='clean image'/>
+          <img src={A_Clean} className='w-full h-96 absolute' alt='clean'/>
           <div className=" w-full h-96 bg-black opacity-50"></div>
           <div className="md:absolute md:top-1/3 md:left-2/4 text-4xl font-bold my-10 text-[#ffffff] 
         absolute top-1/3 ml-14">
@@ -29,7 +29,7 @@ const About = () => {
             </div>
           </div>
           <div className='flex flex-col md:flex-row justify-center  bg-gradient-color'>
-            <img src={Team} className='w-full h-96 p-5 mt-10' alt='team image'/>
+            <img src={Team} className='w-full h-96 p-5 mt-10' alt='team '/>
             <div className='flex-grow w-full'>
               <p className='text-start text-3xl font-semibold p-2 mt-10'>Who We Are!</p>
               <p className='text-xl p-3 leading-loose '>We treat every job as our #1 priority.

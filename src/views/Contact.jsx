@@ -22,7 +22,7 @@ const Contact = () => {
       {loading ? <div className="flex justify-center items-center h-screen">
         <ClipLoader color={"#f84444"} loading={loading} size={60} /></div> :
         <>
-          <img src={CleanPlace} className='absolute w-full h-96' alt='clean place image' />
+          <img src={CleanPlace} className='absolute w-full h-96' alt='clean place ' />
           <div className=" w-full h-96 bg-black opacity-50"></div>
           <div className="absolute top-1/3 left-2/4 text-4xl font-bold my-10 text-[#ffffff] ">
             <div className='flex justify-center'>
@@ -36,7 +36,7 @@ const Contact = () => {
             </p>
           </div>
           <div className='flex flex-col md:flex-row justify-center mt-5 bg-gradient-color'>
-            <img src={Logo} className='w-full h-96 p-5' alt='company logo'/>
+            <img src={Logo} className='w-full h-96 p-5' alt='Fabiana Fabulous Cleaning Services LLC'/>
             <div className='flex-grow w-full'>
               <p className='text-start text-3xl font-semibold p-2'>Fabiana Fabulous Clining Services LLC.</p>
               <ul className='text-xl p-3 tracking-normal  '>

@@ -24,7 +24,7 @@ const FooterPage = () => {
                         whileHover={{ scale: 1.6 }}
                         whileTap={{ scale: 0.8 }}
                         title='Socila-Media Yelp'
-                        className=''> <img src={Yelp} color="#00000" className='w-10 h-10' /></motion.p>
+                        className=''> <img src={Yelp} color="#00000" className='w-10 h-10' alt='yelp'/></motion.p>
                 </a>
                 <a href=' https://www.instagram.com/fabianallc/' target='_blank' rel='noopener noreferrer'>
                     <motion.p
