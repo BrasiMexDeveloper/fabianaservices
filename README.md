@@ -69,6 +69,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+A responsive React Application built for a private company that needs to promote and sell its services to potentially new customers utilizing JavaScript, Tailwind, Twilio,  Google API, Express, and NodeJS.    
+
 ![Screenshot 2024-01-29 103650](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/e75d2851-1342-4f46-958b-38d64e988894)
 
 ![Screenshot 2024-01-29 103701](https://github.com/BrasiMexDeveloper/fabianaservices/assets/43840046/d96230f2-6e6a-4fcd-9953-7b813e1d4f26)
